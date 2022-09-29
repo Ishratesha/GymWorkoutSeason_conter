@@ -12,7 +12,7 @@ const Cart = (props) => {
             <div>
             <p>{about}</p>
             <h6>Age: {age}</h6>
-            <h5>Time :{time} sce</h5>
+            <h5><span className='firstname'>Time: </span>{time} sec</h5>
             <button onClick={()=>props.addTocart(props.item)}>Add to List</button>
             </div>
             </div>

@@ -2,6 +2,19 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+.name{
+  text-align: center;
+}
+.firstname{
+  color: rgb(252, 92, 119);
+}
+.midelname{
+  color: purple;
+}
+.lastname{
+  color: skyblue;
 }
 .item-container{
   display: grid;
@@ -23,13 +36,16 @@ ul{
   margin: 5px;
   padding: 9px;
 }
+.time{
+  font-size: 20px;
+}
  li{
   float: left;
   margin: 5px;
   list-style: none;
   border-radius: 20px;
   padding: 5px;
-  font-size: 6px;
+  font-size: 16px;
   background-color: gray;
   color: white;
   cursor: pointer;
@@ -43,6 +59,7 @@ li:hover{
   justify-content: center;
   align-items: center;
   padding: 5px;
+  text-align: center;
 }
 .aside{
   position: sticky;
@@ -53,12 +70,13 @@ li:hover{
   width: 280px;
 }
 .carts{
-  border-left: 2px solid purple;
-  border-bottom: 2px solid rgb(252, 92, 119);;
+  border-left: 7px solid purple;
+  border-bottom: 5px solid rgb(252, 92, 119);;
   width: 270px;
   height: fit-content;
- 
-  font-size: 20px;
+  padding: 12px;
+  font-size: 22px;
+  text-align: center;
 }
 .proimg{
   width: 100px;
@@ -68,9 +86,7 @@ li:hover{
   width: 250px;
   height: 250px;
 }
-input{
-  width: 35%;
-}
+
 button{
   background-color: rgb(252, 92, 119);
   padding: 17px;
@@ -78,6 +94,11 @@ button{
   margin: 10px;
   color: white;
   border-radius: 25px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-weight: 500;
 }
 @media screen and (max-width:600px) {
   .cart-container{
