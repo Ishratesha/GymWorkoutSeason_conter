@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Cart from './Cart';
-
+import userimg from '../../img/user-2.png'
 const FitnessCart = () => {
     const [workOut_item,setWorkOutItem]=useState([])
     useEffect(()=>{
@@ -10,9 +10,9 @@ const FitnessCart = () => {
     },[])
 
     return (
-        <div className='two-part'>
+        <div className='item-container'>
              
-           <div className='cart-section'>
+           <div className='cart-container'>
          
             {
                 workOut_item.map(item=> <Cart
@@ -23,7 +23,7 @@ const FitnessCart = () => {
            </div>
            <div className='aside'>
                 <div className='flot'>
-                    <img src="" alt="" /> <h2>Ishrat Jahan</h2>
+                    <img  className="proimg"src={userimg} alt="" /> <h2>Ishrat Jahan</h2>
                 </div>
                 <br />
                 
@@ -35,18 +35,20 @@ const FitnessCart = () => {
                             <li>30m</li>
                             <li>40m</li>
                             <li>50m</li>
-                            <li>60m</li>
+                          
                         </ul>
                     </div>
                     
                     <div>
-                        <h2>Exercise Details</h2>
+                        <br />
+                        <br />
+                        <h3>Exercise Details</h3>
                         <div className='input-part'>
-                            <h3>Exercise time:</h3>
+                            <h4>Exercise time:</h4>
                             <input type="text" name="" id="" />
                             </div>
                             <div className='input-part'>
-                            <h3>Break time :</h3>
+                            <h4>Break time :</h4>
                             <input type="text" name="" id="" />
                             </div>
                          <button>Activity Completed</button>
