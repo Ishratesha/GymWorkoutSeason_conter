@@ -1,0 +1,75 @@
+[
+    {
+      "_id": "6334aba067603f7781ecacdc",
+      "picture": "http://placehold.it/32x32",
+      "name": "Standing overhead dumbbe",
+      
+      "about": "Compound exercises, which utilize multiple joints and muscles, are perfect for busy bees as they work several parts of your body at once. A standing overhead press isn’t only one of the best exercises you can do for your shoulders, but it also engages your upper back and core.\r\n",
+      "age": 38,
+      "time": "12"
+    },
+    {
+      "_id": "6334aba01c01081288ba8925",
+      "picture": "https://th.bing.com/th/id/R.d5106c91d82c518b323ec37ea1fd2a87?rik=aVpZVXKH2O7mQA&pid=ImgRaw&r=0",
+      "name": "Single-leg deadlifts",
+      "about": "This is another exercise that challenges your balance. Single-leg deadlifts require stability and leg strength. Grab a light to moderate dumbbell to complete this move.\r\n",
+      "age": 37,
+      "time": "10"
+    },
+    {
+      "_id": "6334aba0a258a1163a4700a7",
+      "picture": "http://placehold.it/32x32",
+      "name": "Burpees",
+      "about": "An exercise we love to hate, burpees are a super-effective, whole-body move that provides great bang for your buck for cardiovascular endurance and muscle strength.r\n",
+      "age": 34,
+      "time": "15"
+    },
+    {
+      "_id": "6334aba0bcb70482c7c51b7f",
+      "picture": "http://placehold.it/32x32",
+      "name": "Side planks",
+      "about": "A healthy body requires a strong core at its foundation, soneglect core-specific moves like the side plank.Focus on the mind-muscle connection and controlled movements to ensure you re completing this move effectively.\r\n",
+      "age": 26,
+      "time": "20"
+    },
+    {
+      "_id": "6334aba0439fe2bfd3f1166f",
+      "picture": "http://placehold.it/32x32",
+      "name": "runing",
+      "about": "Anim velit commodo esse aute et ex tempor laboris culpa occaecat sint sit. Eu dolore reprehenderit adipisicing amet reprehenderit cupidatat consequat mollit anim sint. Ad laboris qui sint fugiat mollit adipisicing minim. Velit officia incididunt aute dolore culpa ex veniam elit occaecat est do reprehenderit reprehenderit reprehenderit.\r\n",
+      "age": 20,
+      "time": "25"
+    },
+    {
+      "_id": "6334aba077ef26235b487168",
+      "picture": "http://placehold.it/32x32",
+      "name": " Planks",
+      "about": "Planks are an effective way to target both your abdominal muscles and your whole body. Planking stabilizes your core without straining your back the way situps or crunches might\r\n",
+      "age": 39,
+      "time": "10"
+    },
+    {
+      "_id": "6334aba048ddcd29b28733d9",
+      "picture": "https://th.bing.com/th/id/R.9f2970d14cf9ce46e15b03217d794c81?rik=LFJUhqrRODcoWQ&riu=http%3a%2f%2fmedia2.popsugar-assets.com%2ffiles%2fthumbor%2fZZhnQjuLPeG6wZo-4vZDqblIOUc%2ffit-in%2f728xorig%2ffilters%3aformat_auto-!!-%3astrip_icc-!!-%2f2013%2f05%2f29%2f700%2fn%2f1922729%2fd16865016752618a_thumb_temp28049481369842211%2fi%2fHow-Do-Split-Lunge-Jump.jpg&ehk=1cKXnWi%2fdEObpOTxRr24vBcEOwW7NrqFB6m92sokpP4%3d&risl=&pid=ImgRaw&r=0",
+      "name": "Lunges",
+      "about": "Challenging your balance is an essential part of a well-rounded exercise routine. Lunges do just that, promoting functional movement while also increasing strength in your legs and glutes.",
+      "age": 33,
+      "time": "12"
+    },
+    {
+        "_id": "6334aba048ddcd29b28733d9",
+        "picture": "http://placehold.it/32x32",
+        "name": "Pushups",
+        "about": "Drop and give me 20! Pushups are one of the most basic yet effective bodyweight moves you can perform because of the number of muscles that are recruited to perform them.\r\n",
+        "age": 33,
+        "time": "20"
+      },
+      {
+        "_id": "6334aba048ddcd29b28733d9",
+        "picture": "http://placehold.it/32x32",
+        "name": " Squats",
+        "about": "Squats increase lower body and core strength, as well as flexibility in your lower back and hips. Because they engage some of the largest muscles in the body, they also pack a major punch in terms of calories burned.\r\n",
+        "age": 33,
+        "time": "15"
+      }
+  ]
