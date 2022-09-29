@@ -22,7 +22,8 @@ const Selectitem = ({cart}) => {
     
   const [time, settime] = useState([]);
     const addtotalBreaktime=(time)=>{
-       console.log("clicked",time) 
+       //console.log("clicked",time) 
+          localStorage.setItem(time,1)
         const newtime = time 
         settime(newtime)
     

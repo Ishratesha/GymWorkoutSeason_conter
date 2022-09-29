@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,200;1,600&family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300&display=swap');
 *{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
 }
 .name{
   text-align: center;
@@ -89,19 +91,23 @@ li:hover{
 
 button{
   background-color: rgb(252, 92, 119);
-  padding: 17px;
+  padding: 10px;
   border: none;
-  margin: 10px;
+  
   color: white;
-  border-radius: 25px ;
+  border-radius: 35px ;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: large;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 30px;
 }
 @media screen and (max-width:600px) {
   .cart-container{
       grid-template-columns: repeat(1, 1fr);
+  }
+  .item-container{
+    grid-template-columns: repeat(1,1fr);
   }
 }
