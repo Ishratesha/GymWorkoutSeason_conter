@@ -45,8 +45,8 @@ li:hover{
   padding: 5px;
 }
 .aside{
-  
-  
+  position: sticky;
+  margin-top: 70px;
   border: 2px solid rgb(255, 40, 40);
  padding: 10px;
   height: 100vh;

@@ -2,9 +2,7 @@ import React from 'react';
 
 const Cart = (props) => {
     const {picture,name,about,age,time} =props.item;
-    const addTocart =(time)=>{
-        console.log('added',time)
-    }
+    
     return (
         <div>
         
@@ -15,7 +13,7 @@ const Cart = (props) => {
             <p>{about}</p>
             <h6>Age: {age}</h6>
             <h5>Time :{time} sce</h5>
-            <button onClick={()=>addTocart(time)}>Add to List</button>
+            <button onClick={()=>props.addTocart(props.item)}>Add to List</button>
             </div>
             </div>
             
