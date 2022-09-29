@@ -4,7 +4,7 @@ import userimg from '../../../img/user-2.png'
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
 const Selectitem = ({cart}) => {
-    //toast 
+    //toast added
     const notify = () => toast("Your daily task has completed!",{position:'top-center'});
     //calculate the sum of workout time
     let total_workout_time =0;
